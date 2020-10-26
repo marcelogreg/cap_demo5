@@ -1,0 +1,21 @@
+{
+  "xsappname": "cap_demo5",
+  "tenant-mode": "dedicated",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.owner_role",
+      "description": "owner_role"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "owner_role",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.owner_role"
+      ],
+      "attribute-references": []
+    }
+  ]
+}

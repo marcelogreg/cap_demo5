@@ -1,0 +1,16 @@
+{
+	"auth": {
+		"passport": {
+			"strategy": "mock",
+			"users": {
+				"Marcelo Almeida": {
+					"password": "Dmlcf@20",
+					"ID": "mgreg@br.ibm.com",
+					"roles": [
+						"owner_role"
+					]
+				}
+			}
+		}
+	}
+}
